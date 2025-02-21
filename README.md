@@ -95,7 +95,7 @@ cd [repository directory]
 * Install Dependencies:
 
 ```
-pip install -r requirements.txt  # (Create a requirements.txt based on the list above)
+pip install -r requirements.txt
 ```
 
 * Download Datasets:
