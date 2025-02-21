@@ -81,19 +81,7 @@ The repository contains the following key files:
 
 *   `clustering_comparison.py`: compares several clustering algorithms using the sklearn library.
 
-## Dependencies
 
-To run the code in this repository, you will need to install the following Python libraries:
-
-```
-pip install pandas numpy scikit-learn matplotlib pyAgrum tensorflow
-```
-
-For more complex installation guidance, see the instructions:
-
-* **PyAgrum**: Consult the PyAgrum documentation for detailed installation instructions: http://agrum.gitlab.io/pages/pyagrum.html
-
-* **Graphviz**: You will also need to install Graphviz system-wide to render Bayesian networks and decision trees. On Ubuntu/Debian: `sudo apt-get install graphviz`. On macOS using Homebrew: `brew install graphviz`.
 
 ## Usage
 
@@ -110,12 +98,16 @@ cd [repository directory]
 ```
 pip install -r requirements.txt
 ```
+For more complex installation guidance, see the instructions:
+
+   * **PyAgrum**: Consult the PyAgrum documentation for detailed installation instructions: http://agrum.gitlab.io/pages/pyagrum.html
+
+   * **Graphviz**: You will also need to install Graphviz system-wide to render Bayesian networks and decision trees. On Ubuntu/Debian: `sudo apt-get install graphviz`. On macOS using Homebrew: `brew install graphviz`.
 
 * Download Datasets:
 
 Download the necessary dataset files and place them in the `data/` directory.
 
-make sure to rename Data_Cortex_Nuclear.xls to Data_Cortex_Nuclear.xls
 
 * Run the Scripts:
 
