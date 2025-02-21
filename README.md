@@ -62,7 +62,7 @@ The repository contains the following key files:
 
 *   `neuralnets.py`: Explores neural network models using scikit-learn and Keras.
 
-*   `tp7 (1).py`: Focuses on Bayesian Networks for clinical data analysis, including dynamic Bayesian networks.
+*   `bayes_nets.py`: Focuses on Bayesian Networks for clinical data analysis, including dynamic Bayesian networks.
 
 *   `em_algorithm.py`: Implements and applies the Expectation-Maximization algorithm for Gaussian Mixture Models.
 
@@ -88,12 +88,15 @@ For more complex installation guidance, see the instructions:
 
 ```
 git clone [repository URL]
-cd [repository directory]```
+cd [repository directory]
+```
 
 
 * Install Dependencies:
 
-```pip install -r requirements.txt  # (Create a requirements.txt based on the list above)```
+```
+pip install -r requirements.txt  # (Create a requirements.txt based on the list above)
+```
 
 * Download Datasets:
 
@@ -105,7 +108,9 @@ make sure to rename Data_Cortex_Nuclear.xls to Data_Cortex_Nuclear.xls
 
 You can run the Python scripts directly from the command line:
 
-```python heartdisease.py```
+```
+python heartdisease.py
+```
 
 
 ## Notes
