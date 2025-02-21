@@ -78,48 +78,37 @@ pip install pandas numpy scikit-learn matplotlib pyAgrum tensorflow
 
 For more complex installation guidance, see the instructions:
 
-PyAgrum: Consult the PyAgrum documentation for detailed installation instructions: http://agrum.gitlab.io/pages/pyagrum.html
+* **PyAgrum**: Consult the PyAgrum documentation for detailed installation instructions: http://agrum.gitlab.io/pages/pyagrum.html
 
-Graphviz: You will also need to install Graphviz system-wide to render Bayesian networks and decision trees. On Ubuntu/Debian: sudo apt-get install graphviz. On macOS using Homebrew: brew install graphviz.
+* **Graphviz**: You will also need to install Graphviz system-wide to render Bayesian networks and decision trees. On Ubuntu/Debian: `sudo apt-get install graphviz`. On macOS using Homebrew: `brew install graphviz`.
 
-Usage
+## Usage
 
-Clone the Repository:
+* Clone the Repository:
 
+```
 git clone [repository URL]
-cd [repository directory]
-content_copy
-download
-Use code with caution.
-Bash
+cd [repository directory]```
 
-Install Dependencies:
 
-pip install -r requirements.txt  # (Create a requirements.txt based on the list above)
-content_copy
-download
-Use code with caution.
-Bash
+* Install Dependencies:
 
-Download Datasets:
+```pip install -r requirements.txt  # (Create a requirements.txt based on the list above)```
 
-Download the necessary dataset files and place them in the data/ directory.
+* Download Datasets:
+
+Download the necessary dataset files and place them in the `data/` directory.
 
 make sure to rename Data_Cortex_Nuclear.xls to Data_Cortex_Nuclear.xls
 
-Run the Scripts:
+* Run the Scripts:
 
 You can run the Python scripts directly from the command line:
 
-python heartdisease.py
-content_copy
-download
-Use code with caution.
-Bash
+```python heartdisease.py```
 
-Or, open the Jupyter Notebooks (.ipynb files) in JupyterLab or Jupyter Notebook and execute the cells.
 
-Notes
+## Notes
 
 The code has been designed to be modular and easy to understand.
 
