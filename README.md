@@ -1,8 +1,6 @@
-Okay, here's a README.md file content that describes the purpose of your repository, the datasets used, the techniques implemented, and instructions on how to use the code. I'll assume the repository is named something like clinical-data-analysis, but adjust that as needed.
+# Machine Learning for Clinical Data
 
-# Clinical Data Analysis with Machine Learning
-
-This repository contains a collection of Python scripts and Jupyter Notebooks that demonstrate various machine learning techniques applied to clinical datasets. The primary goal is to explore and implement both classification and clustering methods for analyzing and predicting outcomes in different medical contexts.
+This repository contains a collection of Python scripts that demonstrate various machine learning techniques applied to clinical datasets. The primary goal is to explore and implement both classification and clustering methods for analyzing and predicting outcomes in different medical contexts.
 
 ## Overview
 
@@ -20,12 +18,12 @@ This repository covers the following topics:
 
 The following datasets are used in this repository:
 
-*   **Heart Disease Dataset (`heartdisease.py`):**
+*   **Heart Disease Dataset (`ml_heart_disease.py`):**
     *   Source: Cleveland dataset from the UCI Machine Learning Repository ([https://archive.ics.uci.edu/ml/datasets/Heart+Disease](https://archive.ics.uci.edu/ml/datasets/Heart+Disease)).
     *   Description: Contains clinical data for predicting the presence of heart disease.
     *   File: `data/heart.csv` (This file needs to be downloaded separately and placed in the `data/` folder.)
 
-*   **Golub Gene Expression Dataset (`modelfeatureselection.py`, `dimensionredcut.py`, `neuralnets.py`):**
+*   **Golub Gene Expression Dataset (`feature_model_selection.py`, `dimension_redcut.py`, `neuralnets.py`):**
     *   Description: Gene expression data used for leukemia classification.
     *   Files: `data/Golub_X` (observations), `data/Golub_y` (classes) (These files need to be downloaded separately and placed in the `data/` folder.)
 
