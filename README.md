@@ -72,7 +72,7 @@ The repository contains the following key files:
 
 To run the code in this repository, you will need to install the following Python libraries:
 
-```bash
+```
 pip install pandas numpy scikit-learn matplotlib pyAgrum tensorflow
 ```
 
