@@ -98,11 +98,6 @@ cd [repository directory]
 ```
 pip install -r requirements.txt
 ```
-For more complex installation guidance, see the instructions:
-
-   * **PyAgrum**: Consult the PyAgrum documentation for detailed installation instructions: http://agrum.gitlab.io/pages/pyagrum.html
-
-   * **Graphviz**: You will also need to install Graphviz system-wide to render Bayesian networks and decision trees. On Ubuntu/Debian: `sudo apt-get install graphviz`. On macOS using Homebrew: `brew install graphviz`.
 
 * Download Datasets:
 
