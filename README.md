@@ -14,6 +14,21 @@ This repository covers the following topics:
 *   **Neural Networks:** Implementation and evaluation of both scikit-learn and Keras based Neural Networks for various classification tasks.
 *   **Cross-Validation:** Techniques to evaluate the performance of machine learning models on the training data using several CV scores.
 
+## Code and Project Summary
+
+| Code/Project                   | Model                                      | Data                                                                                                                                                                                                             | Application | Packages                                      |
+| :----------------------------- | :----------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :-------------------------------------------- |
+| Diabetes Remission Prediction    | Random Forest, Decision Tree               | [Diabetes Prediction Dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)                                                                                                    | Medical     | scikit-learn, pandas                          |
+| Clustering Comparison Metrics | K-means, Hierarchical clustering, Spectral clustering | [Breast Cancer Dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)), [Mice Protein Data Set](https://archive.ics.uci.edu/ml/datasets/Mice+Protein+Expression) | Medical     | scikit-learn, pandas                          |
+| EM Algorithm                 | Gaussian Mixtures                          | [Breast Cancer Data Set](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)), [Mice Protein Dataset](https://archive.ics.uci.edu/ml/datasets/Mice+Protein+Expression)         | Medical     | scikit-learn, pandas                          |
+| Model/Feature Selection        | Lasso Regression, Linear SVC, Elastic Net     | [Breast Cancer Dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)), [Gene Expression Dataset](https://www.kaggle.com/datasets/crawford/gene-expression)            | Medical     | scikit-learn, pandas                          |
+| Cross Validation/Class Regions | Logistic Regression                          | [Breast Cancer Dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)), [Gene Expression Dataset](https://www.kaggle.com/datasets/crawford/gene-expression)            | Medical     | scikit-learn, pandas                          |
+| Dimension Reduction            | PCA, LDA                                   | [Breast Cancer Dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)), [Gene Expression Dataset](https://www.kaggle.com/datasets/crawford/gene-expression)            | Medical     | scikit-learn, pandas                          |
+| Bayesian Networks              | Bayesian Networks                          | Dietary data of obese patients ([MICRO-Obes](https://pubmed.ncbi.nlm.nih.gov/25330000/))                                                                                                               | Medical     | pyAgrum, pandas                             |
+| Neural Networks                | MLP                                          | Dietary data of obese patients ([MICRO-Obes](https://pubmed.ncbi.nlm.nih.gov/25330000/)), [Breast Cancer Dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)), [Gene Expression Dataset](https://www.kaggle.com/datasets/crawford/gene-expression) | Medical     | Keras, Tensorflow, scikit-learn                 |
+| Heart Disease Prediction       | Gaussian Mixtures, Gradient Boost, PCA       | [Heart Disease](https://archive.ics.uci.edu/dataset/45/heart+disease)                                                                                                                               | Medical     | scikit-learn, scipy                           |
+
+
 ## Datasets
 
 The following datasets are used in this repository:
