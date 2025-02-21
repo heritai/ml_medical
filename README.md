@@ -23,48 +23,48 @@ The following datasets are used in this repository:
     *   Description: Contains clinical data for predicting the presence of heart disease.
     *   File: `data/heart.csv` (This file needs to be downloaded separately and placed in the `data/` folder.)
 
-*   **Golub Gene Expression Dataset (`feature_model_selection.py`, `dimension_redcut.py`, `neuralnets.py`):**
+*   **Golub Gene Expression Dataset (`feature_model_selection.py`, `dimension_redcut.py`, `neural_nets.py`):**
     *   Description: Gene expression data used for leukemia classification.
     *   Files: `data/Golub_X` (observations), `data/Golub_y` (classes) (These files need to be downloaded separately and placed in the `data/` folder.)
 
-*   **Breast Cancer Wisconsin (Diagnostic) Dataset (`modelfeatureselection.py`, `dimensionredcut.py`, `neuralnets.py`, `crossvalidation.py`):**
+*   **Breast Cancer Wisconsin (Diagnostic) Dataset (`feature_model_selection.py`, `dimension_redcut.py`, `neural_nets.py`, `cross_validation.py`):**
     *   Description: Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.
     *   File: `data/Breast.txt` (This file needs to be downloaded separately and placed in the `data/` folder.)
 
-*   **SPLEX Dataset (`neuralnets.py`, `crossvalidation.py`, `tp7 (1).py`):**
+*   **SPLEX Dataset (`neural_nets.py`, `cross_validation.py`, `bayes_nets.py`):**
     *   Description: Host and environmental data of obese patients.  Includes environmental (`SPLEX_env.txt`), host (`SPLEX_host.txt`), and microbial (`SPLEX_micro.txt`) data, along with class labels (`classes.csv`).
     *   Files: `data/SPLEX_env.txt`, `data/SPLEX_host.txt`, `data/SPLEX_micro.txt`, `data/classes.csv` (These files need to be downloaded separately and placed in the `data/` folder.)
 
-*   **Mouse Protein Expression Dataset (`crossvalidation.py`):**
+*   **Mouse Protein Expression Dataset (`cross_validation.py`):**
     *   Description: Data related to protein expression levels in the cerebral cortex of mice.
     *   File: The dataset should be downloaded from : [https://archive.ics.uci.edu/ml/machine-learning-databases/00342/Data_Cortex_Nuclear.xls](https://archive.ics.uci.edu/ml/machine-learning-databases/00342/Data_Cortex_Nuclear.xls)
     *   save the file as Data_Cortex_Nuclear.xls in the `/data` directory.
 
-*   **Dynamic Data for Diabetes Remission (`tp7 (1).py`):**
+*   **Dynamic Data for Diabetes Remission (`bayes_nets.py`):**
     *   Description: Dynamic data with HbA1C (glycated hemoglobin), Gly (glycemia), Poids (weight of patients), and Status (remission, non-remission, or partial remission) for time 0, 1 and 5 years after the surgery.
     *   File: `data/dynamic.txt` (This file needs to be downloaded separately and placed in the `data/` folder.)
 
-**Important Note:**  Due to licensing restrictions or file size limitations, the dataset files are not included directly in this repository. You will need to download them separately and place them in the `data/` directory for the scripts to run correctly.
+**Important Note:**  Due to licensing restrictions or file size limitations, some dataset files are not included directly in this repository. You will need to download them separately and place them in the `data/` directory for the scripts to run correctly.
 
 ## Scripts and Notebooks
 
 The repository contains the following key files:
 
-*   `heartdisease.py`: Explores various machine learning techniques for heart disease prediction and clustering.
+*   `ml_heart_disease.py`: Explores various machine learning techniques for heart disease prediction and clustering.
 
-*   `modelfeatureselection.py`: Demonstrates feature selection techniques using different models.
+*   `feature_model_selection.py`: Demonstrates feature selection techniques using different models.
 
-*   `dimensionredcut.py`: Explores dimension reduction techniques like PCA, Kernel PCA, and LDA.
+*   `dimension_redcut.py`: Explores dimension reduction techniques like PCA, Kernel PCA, and LDA.
 
-*   `crossvalidation.py`: Implements cross-validation for model evaluation using both scikit-learn and custom logistic regression.
+*   `cross_validation.py`: Implements cross-validation for model evaluation using both scikit-learn and custom logistic regression.
 
-*   `neuralnets.py`: Explores neural network models using scikit-learn and Keras.
+*   `neural_nets.py`: Explores neural network models using scikit-learn and Keras.
 
 *   `bayes_nets.py`: Focuses on Bayesian Networks for clinical data analysis, including dynamic Bayesian networks.
 
 *   `em_algorithm.py`: Implements and applies the Expectation-Maximization algorithm for Gaussian Mixture Models.
 
-*   `clustercomparison.py`: compares several clustering algorithms using the sklearn library.
+*   `clustering_comparison.py`: compares several clustering algorithms using the sklearn library.
 
 ## Dependencies
 
@@ -107,7 +107,7 @@ make sure to rename Data_Cortex_Nuclear.xls to Data_Cortex_Nuclear.xls
 You can run the Python scripts directly from the command line:
 
 ```
-python heartdisease.py
+python ml_heart_disease.py
 ```
 
 
