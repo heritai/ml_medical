@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-EM Algorithm.py
+em_algorithm.py
 
 Objective:
 Understand the Expectation-Maximization algorithm and learn how to apply it
