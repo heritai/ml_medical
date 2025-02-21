@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Diabetes Remission Prediction
 
-Objective:
+diabet_prediction.py
+
+Objective: Diabetes Remission Prediction
 Develop practical skills in applying decision trees and random forests to
 real-world biological data using the scikit-learn Python library.
 """
