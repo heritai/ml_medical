@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-CrossValidation.ipynb
+corss_validation.py
 
-This notebook demonstrates cross-validation techniques.
+This code snippet demonstrates cross-validation techniques.
 """
 
 import pandas as pd
