@@ -74,7 +74,7 @@ To run the code in this repository, you will need to install the following Pytho
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib pyAgrum tensorflow
-'''
+```
 
 For more complex installation guidance, see the instructions:
 
