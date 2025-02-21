@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-modelFeatureSelection.py
+feature_model_selection.py
 
 This code snippet demonstrates some techniques for feature selection.
 """
