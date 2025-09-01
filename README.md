@@ -121,6 +121,3 @@ Feel free to experiment with different parameters, models, and datasets.
 
 Contributions to this repository are welcome!
 
-License
-
-This project is licensed under the [Specify License - e.g., MIT License] - see the LICENSE file for details.
